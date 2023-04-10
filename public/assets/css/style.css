@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fontfamily-text);
+    font-size: var(--font-size);
+    line-height: 150%;
+}
+
+.lstimg {
+    grid-template-columns: auto 60px;
+    grid-template-rows: auto;
+}
